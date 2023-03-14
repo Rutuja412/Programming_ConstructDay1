@@ -9,8 +9,8 @@ namespace ProgrammingConstruct
             //Console.WriteLine("Basic Problems");
             //Equality.CheckEquality();
             //OddEven.CheckOddEven();
-            Voter.CheckVoter();
-           
+           // Voter.CheckVoter();
+            LargestNumber.MaximumIntegerNumber(34, 12, 5);
         }
     }
 }

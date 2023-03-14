@@ -7,6 +7,7 @@ namespace ProgrammingConstruct
         static void Main(string[] args)
         {
             Console.WriteLine("Basic Problems");
+            Equality.CheckEquality();
         }
     }
 }

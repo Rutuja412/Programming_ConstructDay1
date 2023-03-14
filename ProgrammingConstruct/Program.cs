@@ -8,6 +8,7 @@ namespace ProgrammingConstruct
         {
             Console.WriteLine("Basic Problems");
             Equality.CheckEquality();
+            OddEven.CheckOddEven();
         }
     }
 }

@@ -6,9 +6,11 @@ namespace ProgrammingConstruct
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Basic Problems");
-            Equality.CheckEquality();
-            OddEven.CheckOddEven();
+            //Console.WriteLine("Basic Problems");
+            //Equality.CheckEquality();
+            //OddEven.CheckOddEven();
+            Voting.CheckVoter();
+           
         }
     }
 }

@@ -11,7 +11,8 @@ namespace ProgrammingConstruct
             //OddEven.CheckOddEven();
             // Voter.CheckVoter();
             //  LargestNumber.MaximumIntegerNumber(34, 12, 5);
-            AdmissionEligibility.CheckEligibility();
+            // AdmissionEligibility.CheckEligibility();
+            WeekDays.Week();
         }
     }
 }

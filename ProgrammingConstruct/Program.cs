@@ -8,7 +8,7 @@ namespace ProgrammingConstruct
         {
             Console.WriteLine("Basic Problems");
             Console.WriteLine("Select given options");
-            Console.WriteLine("1.CheckEqua;ity\n2.OddEven\n3.Voting\n4.Large Number\n5.Eligibility For Admission\n6.DayWeek\n7.Arithmatic Operation\n8.Exit ");
+            Console.WriteLine("1.CheckEqua;ity\n2.OddEven\n3.Voting\n4.Large Number\n5.Eligibility For Admission\n6.DayWeek\n7.Arithmatic Operation\n8.Power Of 2 \n9.Exit ");
             int option = Convert.ToInt16(Console.ReadLine());
             switch (option)
             {
@@ -38,6 +38,9 @@ namespace ProgrammingConstruct
                 case 7:
                     Console.WriteLine("Arithmatic Operation");
                     ArithmaticOperation.Calculator();
+                    break;
+                    case 8:
+                    PowerOfTwo.FindPowerOfTwo();
                     break;
                     default: Console.WriteLine("Enter Correct Number");
                     break;

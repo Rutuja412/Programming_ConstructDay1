@@ -8,7 +8,7 @@ namespace ProgrammingConstruct
         {
             Console.WriteLine("Basic Problems");
             Console.WriteLine("Select given options");
-            Console.WriteLine("1.CheckEqua;ity\n2.OddEven\n3.Voting\n4.Large Number\n5.Eligibility For Admission\n6.DayWeek\n7.Arithmatic Operation\n8.Power Of 2 \n9. Sum Of Sqaure \n10Factorial\n11.Exit ");
+            Console.WriteLine("1.CheckEqua;ity\n2.OddEven\n3.Voting\n4.Large Number\n5.Eligibility For Admission\n6.DayWeek\n7.Arithmatic Operation\n8.Power Of 2 \n9. Sum Of Sqaure \n10Factorial\n11.FlipCoin \n12.ReverseString\n13.Exit ");
             int option = Convert.ToInt16(Console.ReadLine());
             switch (option)
             {
@@ -52,7 +52,12 @@ namespace ProgrammingConstruct
                     Factorial.FindFactorial();
                     break;
                     case 11:
+                    Console.WriteLine("Flipcoin");
                        FlipCoin.FlipcoinSimulation();
+                    break;
+                    case 12:
+                    Console.WriteLine("Reverse Word");
+                    ReverseString.ReverseWord();
                     break;
                     default: Console.WriteLine("Enter Correct Number");
                     break;

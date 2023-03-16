@@ -51,6 +51,9 @@ namespace ProgrammingConstruct
                     Console.WriteLine("Factorial");
                     Factorial.FindFactorial();
                     break;
+                    case 11:
+                       FlipCoin.FlipcoinSimulation();
+                    break;
                     default: Console.WriteLine("Enter Correct Number");
                     break;
 

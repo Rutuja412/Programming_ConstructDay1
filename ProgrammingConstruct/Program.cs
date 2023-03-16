@@ -8,7 +8,7 @@ namespace ProgrammingConstruct
         {
             Console.WriteLine("Basic Problems");
             Console.WriteLine("Select given options");
-            Console.WriteLine("1.CheckEqua;ity\n2.OddEven\n3.Voting\n4.Large Number\n5.Eligibility For Admission\n6.DayWeek\n7.Arithmatic Operation\n8.Power Of 2 \n9. Sum Of Sqaure \n10Exit ");
+            Console.WriteLine("1.CheckEqua;ity\n2.OddEven\n3.Voting\n4.Large Number\n5.Eligibility For Admission\n6.DayWeek\n7.Arithmatic Operation\n8.Power Of 2 \n9. Sum Of Sqaure \n10Factorial\n11.Exit ");
             int option = Convert.ToInt16(Console.ReadLine());
             switch (option)
             {
@@ -46,6 +46,10 @@ namespace ProgrammingConstruct
                     case 9:
                     Console.WriteLine("Sum Of Squares of given number");
                     SquareOfSum.CalculateSumofSquares();
+                    break;
+                    case 10:
+                    Console.WriteLine("Factorial");
+                    Factorial.FindFactorial();
                     break;
                     default: Console.WriteLine("Enter Correct Number");
                     break;
